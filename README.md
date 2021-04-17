@@ -6,9 +6,13 @@
 
 # Packages:
  * imgui 1.82
- * Directx SDK June 2010
+ * Directx SDK June 2010 (optional)
  * cmake 3.20
- * compiler tool builder needed
+ * Visual Studio 2019 (compiler tool builder needed)
+  * c/c++
+  * cmake
+  * directx sdk
+
 
 # Window Bit: 32
 
@@ -20,6 +24,7 @@
  * install visual studio 2019
   * c/c++
   * directx sdk
+  * cmake
 ```cmake
 set(ENABLE_DXSDK OFF) # Directx SDK june 2010
 set(ENABLE_WINDXSDK ON) # Windows Kits 10
