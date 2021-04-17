@@ -32,6 +32,15 @@ set(WINDOW_BIT x86) # arm, arm64, x64, x86
   Those are basic settings in CMakeLists.txt
 
   The example is from https://github.com/ocornut/imgui/tree/master/examples/example_win32_directx11
+```bat
+:: Create a build directory
+mkdir build 
+cd build
+:: cmake config CMakeLists.txt
+cmake .. -A Win32
+:: build binary app
+cmake --build . 
+```
 
 # Notes:
  * cmake config is must in win 32 bit else it will error in the builds.
